@@ -1,0 +1,338 @@
+li {
+    display: inline;
+    float: left;
+    width: 100px;
+}
+
+nav {
+  position: sticky;
+    color: transparent;
+    top: 0;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+button:hover{
+    background-color: #555;
+    color: white;
+}
+form{
+    background: rgba(2, 15, 35, 0.542);
+    backdrop-filter: blur(5px);
+    display:grid;
+    justify-content:center;
+    position: inherit;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+h1,
+h3 {
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+h1 {
+  margin-top: 8px;
+  color     : #0b7377;
+}
+
+
+.login {
+  margin: 22px auto;
+  margin-top: 0;
+  width: 60%;
+}
+
+.signup {
+  margin: 22px auto;
+  width: 60%;
+  margin-top: 0;
+}
+input {
+  display: block;
+  margin: 18px auto;
+  width: 260px;
+  height: 30px;
+  padding: 4px 8px;
+  font-family: 'Roboto';
+  box-shadow: 2px 2px 2px rgba(234, 227, 227, 0.3);
+  outline: none;
+  border-radius: 5px;
+}
+
+ul li {
+  font-family: 'Roboto';
+  margin: 8px auto;
+}
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+  }
+  button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px
+  }
+  
+  button:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+  
+  button {
+    position: inherit;
+    display: block;
+  }
+  
+  .logo{
+    height: 50px;
+  }
+
+
+  .nav-bar {
+    height: 100px;
+    background-color:transparent;
+    position: sticky;
+    margin-top: 0;
+  }
+  
+  .nav-bar ul {
+    float: right;
+    margin-top: 40px;
+  }
+  
+  .nav-bar li {
+    display: inline;
+    margin: 20px
+  }
+  
+  .nav-bar li:nth-child(3) {
+    margin-right: 10px;
+  }
+  
+  .nav-bar li {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid rgba(255,255,255,.5);
+    padding: 8px 15px;
+    transition: all 200ms ease;
+  }
+  
+  .nav-bar li:hover {
+    background-color: rgba(255,255,255,.4);
+    
+  }
+  .nav-bar img {
+    float: left;
+    width: 30px;
+    margin: 20px 30px;
+  }
+  .button-nav{
+    position: absolute;
+    right: 0;
+  }
+  .button-navv{
+    position: absolute;
+    right: 10%;
+  }
+  footer{
+    background-color: #0080FF;
+    padding: 0 0 0 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  footer img {
+    width: 50px;
+    /* position: absolute; */
+   margin-left: 42pc;
+  }
+
+  .transfer{
+    background-image: url("https://thumbs.dreamstime.com/b/online-banking-banner-website-internet-mobile-phone-blue-background-electronic-bank-payment-copy-space-digital-204929150.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .trbtn{
+    position: relative;
+    margin-right: 100px;
+  }
+  h2{
+    display: inline;
+    color: #fff;
+    border: #141e30;
+    border-radius: 5cm;
+    border-right: 2 2 2px;
+  }
+  .activity{
+    justify-content: space-between;
+    background-color: #243b55;
+    margin: 20px;
+    font-size: 13px;
+  }
+  .image{
+    border: double #fff;
+    width: 200px;
+    height: 200px;
+
+  }
+  .prof{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .surface-front {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin-right: 50px;
+  }
+  .surface-front img{
+    width: 800px;
+    height: 400px;
+    margin-left: 20%;
+    border: #143191;
+    border-style: solid;
+  }
+
+  .dashboardHistory{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/905/522/original/dark-blue-background-free-photo.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    margin-left: 0;
+    border: #143191;
+    border-style: solid;
+  }
+  .name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+
+  .dashboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Krub|Muli:400,400i,600');
+ .container {
+	 font-family: 'Muli', sans-serif;
+	 max-width: 1000px;
+	 height: 50vh;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .card-left {
+	 margin: 0px;
+	 background: #dfe4ea;
+	 border: 2px;
+	 width: 300px;
+	 height: 460px;
+	 border-radius: 35px 0 0 35px;
+	 box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .top {
+	 display: flex;
+	 justify-content: space-between;
+}
+ .back {
+	 width: 70px;
+	 margin-right: 5.4rem;
+}
+ .visa {
+	 width: 80px;
+}
+ .price-count {
+	 color: #2c2c54;
+	 margin: 4em 2.3rem;
+	 font-weight: 900;
+}
+ .total {
+	 font-size: 19px;
+	 margin-bottom: -1rem;
+	 color: #2c2c54;
+}
+ .amount {
+	 font-size: 15px;
+}
+ .card-right {
+	 background-image: linear-gradient(90deg, rgba(2, 0, 36, 0.819765406162465) 42%, rgba(6, 6, 47, 0.758140756302521) 100%, rgba(0, 212, 255, 1) 100%), url("https://images.unsplash.com/photo-1527155781285-a10fb8d2be02?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4e443f9738257d8244c3266ae78a60e8&auto=format&fit=crop&w=800&q=60");
+	 border: 2px;
+	 width: 430px;
+	 height: 460px;
+	 border-radius: 0 35px 35px 0;
+	 box-shadow: 2px 0 0 0.2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.9);
+}
+ .expire {
+	 margin: 1.2em 2em;
+	 font-size: 1.7em;
+	 color: #fff;
+}
+ .date {
+	 color: #fff;
+	 margin: 10px 2em;
+	 display: flex;
+	 font-size: 24px;
+	 justify-content: space-between;
+}
+ .card-info {
+	 color: #fff;
+	 margin: 20px 2.5em;
+}
+ .card-info p {
+	 font-weight: 800px;
+	 font-size: 21px;
+}
+ .card-info span {
+	 border: #ffca28 1px solid;
+	 padding: 5% 20%;
+	 font-size: 1.3em;
+}
+ .cvc-code {
+	 margin: 2em;
+	 color: #fff;
+}
+ .cvc-code p {
+	 font-weight: 800px;
+	 font-size: 21px;
+}
+ .cvc-code span {
+	 border: 0.8px #738489 solid;
+	 font-size: 23px;
+	 padding: 17px 20px;
+}
+.walletcontainer{
+  margin-bottom: 10%;
+}
+ 
