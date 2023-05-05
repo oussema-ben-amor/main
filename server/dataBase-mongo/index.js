@@ -1,10 +1,12 @@
 const mongoose = require("mongoose");
-const mongoUri = "mongodb://127.0.0.1/bank";
+const mongoUri = "mongodb+srv://benamoroussema339:root@cluster0.zdhbsej.mongodb.net/bank";
 mongoose.set('strictQuery', true)
 
-mongoose.connect(mongoUri, { useUnifiedTopology: true, useNewUrlParser: true }, () => {
-  console.log("db connected");
-});
-const db = mongoose.connection;
+
+const db = async () => {
+   mongoose.connect(mongoUri,
+    { useUnifiedTopology: true, useNewUrlParser: true });
+  console.log("db connected")
+}
 
 module.exports = db
